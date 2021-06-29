@@ -3,6 +3,7 @@ category: tool
 tool: vim
 contributors:
     - ["RadhikaG", "https://github.com/RadhikaG"]
+    - ["awvalenti", "https://github.com/awvalenti"]
 filename: LearnVim.txt
 ---
 
@@ -79,7 +80,7 @@ specific points in the file, and for fast editing.
 
     gg               # Go to the top of the file
     G                # Go to the bottom of the file
-    :NUM             # Go to line number NUM (NUM is any number)
+    numG             # Go to line number num (num is any number)
     H                # Move to the top of the screen
     M                # Move to the middle of the screen
     L                # Move to the bottom of the screen
